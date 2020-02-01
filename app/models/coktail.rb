@@ -1,2 +1,0 @@
-class Coktail < ApplicationRecord
-end
