@@ -18,11 +18,6 @@ class CocktailsController < ApplicationController
     redirect_to cocktail_path(@new_cocktail)
   end
 
-  def destroy
-    @cocktail = Cocktail.destroy
-    redirect_to cocktail_path(@cocktails)
-  end
-
   private
 
   def cocktail_find
